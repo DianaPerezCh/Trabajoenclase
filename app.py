@@ -6,6 +6,7 @@ from backend.granulometria import granulometria
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
 
 #App layout
 app.layout = dbc.Container(
